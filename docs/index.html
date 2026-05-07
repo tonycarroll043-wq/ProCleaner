@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ProCleaner — Free PC Optimizer for Windows</title>
-  <meta name="description" content="ProCleaner is a free, open-source Windows system optimizer. Clean junk files, fix the registry, manage startup, analyze disk space, and boost PC performance — all in one app." />
+  <title>ProCleaner &mdash; Free PC Optimizer for Windows</title>
+  <meta name="description" content="ProCleaner is a free, open-source Windows system optimizer. Clean junk files, fix the registry, manage startup, analyze disk space, and boost PC performance &mdash; all in one app." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
@@ -39,7 +39,7 @@
       overflow-x: hidden;
     }
 
-    /* ── NAV ── */
+    /* NAV */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; align-items: center; justify-content: space-between;
@@ -66,7 +66,7 @@
     }
     .nav-cta:hover { background: var(--blue-lt); transform: translateY(-1px); }
 
-    /* ── HERO ── */
+    /* HERO */
     .hero {
       min-height: 100vh;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -123,7 +123,7 @@
     }
     .hero-meta span { display: flex; align-items: center; gap: 5px; }
 
-    /* ── APP MOCKUP ── */
+    /* APP MOCKUP */
     .mockup-wrap {
       margin-top: 60px; width: 100%; max-width: 900px;
       border-radius: 14px; overflow: hidden;
@@ -188,7 +188,7 @@
       display: flex; gap: 16px;
     }
 
-    /* ── STATS STRIP ── */
+    /* STATS STRIP */
     .stats-strip {
       border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
       background: var(--bg-surface);
@@ -200,7 +200,7 @@
     .stat-num { font-size: 2rem; font-weight: 800; color: var(--blue-lt); }
     .stat-lbl { font-size: 0.82rem; color: var(--text-sec); margin-top: 2px; }
 
-    /* ── SECTIONS ── */
+    /* SECTIONS */
     section { padding: 100px 5%; }
     .section-label { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--blue); margin-bottom: 12px; }
     .section-title { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 800; margin-bottom: 16px; letter-spacing: -0.02em; }
@@ -208,7 +208,7 @@
     .center { text-align: center; }
     .center .section-sub { margin-left: auto; margin-right: auto; }
 
-    /* ── FEATURES GRID ── */
+    /* FEATURES GRID */
     .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
     .feature-card {
       background: var(--bg-card); border: 1px solid var(--border);
@@ -224,7 +224,7 @@
     .feature-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
     .feature-card p { color: var(--text-sec); font-size: 0.875rem; line-height: 1.6; }
 
-    /* ── HOW IT WORKS ── */
+    /* HOW IT WORKS */
     .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px; position: relative; }
     .step { text-align: center; }
     .step-num {
@@ -237,7 +237,7 @@
     .step h3 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
     .step p { color: var(--text-sec); font-size: 0.875rem; }
 
-    /* ── TOOL LIST ── */
+    /* TOOL LIST */
     .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
     .tool-chip {
       background: var(--bg-card); border: 1px solid var(--border);
@@ -249,7 +249,7 @@
     .tool-chip:hover { border-color: var(--border-h); background: var(--bg-card-h); }
     .tool-chip-icon { font-size: 18px; }
 
-    /* ── CTA SECTION ── */
+    /* CTA SECTION */
     .cta-section {
       background: linear-gradient(135deg, rgba(56,139,253,0.08), rgba(188,140,255,0.06));
       border-top: 1px solid rgba(56,139,253,0.15);
@@ -259,7 +259,7 @@
     .cta-section h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 800; margin-bottom: 16px; }
     .cta-section p { color: var(--text-sec); font-size: 1.05rem; margin-bottom: 36px; }
 
-    /* ── FOOTER ── */
+    /* FOOTER */
     footer {
       background: var(--bg-deep); border-top: 1px solid var(--border);
       padding: 40px 5%; display: flex; align-items: center; justify-content: space-between;
@@ -271,7 +271,7 @@
     .footer-links a:hover { color: var(--text); }
     .footer-copy { color: var(--text-muted); font-size: 0.82rem; }
 
-    /* ── RESPONSIVE ── */
+    /* RESPONSIVE */
     @media (max-width: 700px) {
       .nav-links { display: none; }
       .stat { padding: 20px 28px; }
@@ -283,47 +283,47 @@
 </head>
 <body>
 
-<!-- ── NAV ──────────────────────────────────────── -->
+<!-- NAV -->
 <nav>
   <a class="nav-logo" href="#">
-    <div class="nav-logo-icon">🧹</div>
+    <div class="nav-logo-icon">&#x1F9F9;</div>
     ProCleaner
   </a>
   <ul class="nav-links">
     <li><a href="#features">Features</a></li>
     <li><a href="#tools">Tools</a></li>
     <li><a href="#how">How it works</a></li>
-    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    <li><a href="https://github.com/tonycarroll043-wq/ProCleaner" target="_blank">GitHub</a></li>
   </ul>
-  <a class="nav-cta" href="#download">Free Download</a>
+  <a class="nav-cta" href="https://github.com/tonycarroll043-wq/ProCleaner/releases/latest/download/ProCleaner-v1.0.0-Windows.zip">Free Download</a>
 </nav>
 
-<!-- ── HERO ─────────────────────────────────────── -->
+<!-- HERO -->
 <section class="hero">
   <div class="hero-glow"></div>
-  <div class="hero-badge"><span></span> Free &amp; Open Source — No ads, no subscriptions</div>
+  <div class="hero-badge"><span></span> Free &amp; Open Source &mdash; No ads, no subscriptions</div>
   <h1>Your PC deserves<br /><span class="accent">peak performance</span></h1>
-  <p class="hero-sub">ProCleaner scans 10 health metrics, removes junk files, fixes the registry, kills bloat, and keeps Windows running fast — in minutes.</p>
+  <p class="hero-sub">ProCleaner scans 10 health metrics, removes junk files, fixes the registry, kills bloat, and keeps Windows running fast &mdash; in minutes.</p>
   <div class="hero-actions">
-    <a class="btn-primary" href="#download" id="download">
-      ⬇ Download for Windows
+    <a class="btn-primary" href="https://github.com/tonycarroll043-wq/ProCleaner/releases/latest/download/ProCleaner-v1.0.0-Windows.zip" id="download">
+      &#x2B07; Download for Windows
     </a>
-    <a class="btn-secondary" href="https://github.com" target="_blank">
-      ★ View on GitHub
+    <a class="btn-secondary" href="https://github.com/tonycarroll043-wq/ProCleaner" target="_blank">
+      &#x2605; View on GitHub
     </a>
   </div>
   <div class="hero-meta">
-    <span>✅ Windows 10 &amp; 11</span>
-    <span>✅ No Python required</span>
-    <span>✅ No install — just run</span>
-    <span>✅ 100% free forever</span>
+    <span>&#x2705; Windows 10 &amp; 11</span>
+    <span>&#x2705; No Python required</span>
+    <span>&#x2705; No install &mdash; just run</span>
+    <span>&#x2705; 100% free forever</span>
   </div>
 
   <!-- App mockup -->
   <div class="mockup-wrap">
     <div class="mockup-titlebar">
       <div class="mock-dot red"></div><div class="mock-dot yellow"></div><div class="mock-dot green"></div>
-      <div class="mockup-titlebar-text">ProCleaner — System Optimizer</div>
+      <div class="mockup-titlebar-text">ProCleaner &mdash; System Optimizer</div>
     </div>
     <div class="mockup-body">
       <div class="mock-sidebar">
@@ -346,7 +346,7 @@
       <div class="mock-main">
         <div class="mock-header">
           <div class="mock-title">PC Health Check</div>
-          <div class="mock-btn">▶ Run Health Check</div>
+          <div class="mock-btn">&#x25B6; Run Health Check</div>
         </div>
         <div class="mock-score-ring">
           <div class="mock-score-num">85</div>
@@ -370,7 +370,7 @@
           </div>
           <div class="mock-metric">
             <div class="mock-metric-name">Registry Issues</div>
-            <div class="mock-metric-val" style="color:#3fb950">0 found ✓</div>
+            <div class="mock-metric-val" style="color:#3fb950">0 found &#x2713;</div>
             <div class="mock-metric-bar"><div class="mock-metric-fill" style="width:5%;background:#3fb950"></div></div>
           </div>
         </div>
@@ -385,7 +385,7 @@
   </div>
 </section>
 
-<!-- ── STATS ─────────────────────────────────────── -->
+<!-- STATS -->
 <div class="stats-strip">
   <div class="stat"><div class="stat-num">10+</div><div class="stat-lbl">Cleaning Tools</div></div>
   <div class="stat"><div class="stat-num">10</div><div class="stat-lbl">Health Metrics</div></div>
@@ -393,72 +393,72 @@
   <div class="stat"><div class="stat-num">100%</div><div class="stat-lbl">Free Forever</div></div>
 </div>
 
-<!-- ── FEATURES ──────────────────────────────────── -->
+<!-- FEATURES -->
 <section id="features">
   <div class="center">
     <div class="section-label">Why ProCleaner</div>
-    <h2 class="section-title">Everything your PC needs, nothing it doesn't</h2>
+    <h2 class="section-title">Everything your PC needs, nothing it doesn&apos;t</h2>
     <p class="section-sub">One app replaces a drawer full of tools. No bloat, no upsells, no tracking.</p>
   </div>
   <div class="features-grid">
     <div class="feature-card">
-      <div class="feature-icon" style="background:rgba(56,139,253,0.12)">🩺</div>
+      <div class="feature-icon" style="background:rgba(56,139,253,0.12)">&#x1FA7A;</div>
       <h3>PC Health Score</h3>
-      <p>Get an instant overall health score across 10 real metrics — disk, RAM, CPU, junk, registry, updates, and more.</p>
+      <p>Get an instant overall health score across 10 real metrics &mdash; disk, RAM, CPU, junk, registry, updates, and more.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon" style="background:rgba(63,185,80,0.12)">🗑️</div>
+      <div class="feature-icon" style="background:rgba(63,185,80,0.12)">&#x1F5D1;</div>
       <h3>Deep Junk Cleaner</h3>
       <p>Removes temp files, Windows cache, browser junk, log files, and installer leftovers to reclaim gigabytes instantly.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon" style="background:rgba(210,153,34,0.12)">🔧</div>
+      <div class="feature-icon" style="background:rgba(210,153,34,0.12)">&#x1F527;</div>
       <h3>Registry Fixer</h3>
-      <p>Scans 8 registry categories for invalid entries — missing app paths, orphaned uninstall keys, broken COM references — and fixes them safely.</p>
+      <p>Scans 8 registry categories for invalid entries &mdash; missing app paths, orphaned uninstall keys, broken COM references &mdash; and fixes them safely.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon" style="background:rgba(248,81,73,0.12)">🚀</div>
+      <div class="feature-icon" style="background:rgba(248,81,73,0.12)">&#x1F680;</div>
       <h3>Startup Manager</h3>
       <p>See every program that launches at boot. Disable the ones slowing you down and cut startup time dramatically.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon" style="background:rgba(188,140,255,0.12)">💾</div>
+      <div class="feature-icon" style="background:rgba(188,140,255,0.12)">&#x1F4BE;</div>
       <h3>Disk Analyzer</h3>
-      <p>Visual breakdown of what's eating your storage. Find and eliminate space hogs with one click.</p>
+      <p>Visual breakdown of what&apos;s eating your storage. Find and eliminate space hogs with one click.</p>
     </div>
     <div class="feature-card">
-      <div class="feature-icon" style="background:rgba(57,211,83,0.12)">🔒</div>
+      <div class="feature-icon" style="background:rgba(57,211,83,0.12)">&#x1F512;</div>
       <h3>Secure File Wiper</h3>
-      <p>Permanently erase sensitive files beyond recovery using multi-pass overwrite — because Delete isn't enough.</p>
+      <p>Permanently erase sensitive files beyond recovery using multi-pass overwrite &mdash; because Delete isn&apos;t enough.</p>
     </div>
   </div>
 </section>
 
-<!-- ── ALL TOOLS ─────────────────────────────────── -->
+<!-- ALL TOOLS -->
 <section id="tools" style="padding-top: 0;">
   <div class="center">
     <div class="section-label">Full Toolkit</div>
     <h2 class="section-title">13 tools built in</h2>
-    <p class="section-sub">Every tool you'd normally need to install separately, all in one dark, fast, clean interface.</p>
+    <p class="section-sub">Every tool you&apos;d normally need to install separately, all in one dark, fast, clean interface.</p>
   </div>
   <div class="tools-grid">
-    <div class="tool-chip"><span class="tool-chip-icon">🩺</span> PC Health Check</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🗑️</span> Custom Cleaner</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🔧</span> Registry Cleaner</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🌐</span> Browser Cleaner</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🚀</span> Startup Manager</div>
-    <div class="tool-chip"><span class="tool-chip-icon">📦</span> Uninstaller</div>
-    <div class="tool-chip"><span class="tool-chip-icon">💾</span> Disk Analyzer</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🔍</span> Duplicate Finder</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🔒</span> Secure Wiper</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🔄</span> Software Updater</div>
-    <div class="tool-chip"><span class="tool-chip-icon">♻️</span> System Restore</div>
-    <div class="tool-chip"><span class="tool-chip-icon">⚡</span> Performance Optimizer</div>
-    <div class="tool-chip"><span class="tool-chip-icon">🍪</span> Cookie Manager</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1FA7A;</span> PC Health Check</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F5D1;</span> Custom Cleaner</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F527;</span> Registry Cleaner</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F310;</span> Browser Cleaner</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F680;</span> Startup Manager</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F4E6;</span> Uninstaller</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F4BE;</span> Disk Analyzer</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F50D;</span> Duplicate Finder</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F512;</span> Secure Wiper</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F504;</span> Software Updater</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x267B;</span> System Restore</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x26A1;</span> Performance Optimizer</div>
+    <div class="tool-chip"><span class="tool-chip-icon">&#x1F36A;</span> Cookie Manager</div>
   </div>
 </section>
 
-<!-- ── HOW IT WORKS ──────────────────────────────── -->
+<!-- HOW IT WORKS -->
 <section id="how" style="background:var(--bg-surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
   <div class="center">
     <div class="section-label">How It Works</div>
@@ -469,7 +469,7 @@
     <div class="step">
       <div class="step-num">1</div>
       <h3>Download &amp; Run</h3>
-      <p>Download the single <code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-size:0.85em">run.exe</code> file. No installation or Python required — just double-click and go.</p>
+      <p>Download the ZIP, extract anywhere, and double-click <code style="background:var(--bg-card);padding:2px 6px;border-radius:4px;font-size:0.85em">run.exe</code>. No installation or Python required.</p>
     </div>
     <div class="step">
       <div class="step-num">2</div>
@@ -479,40 +479,40 @@
     <div class="step">
       <div class="step-num">3</div>
       <h3>Fix Everything</h3>
-      <p>Click "Fix All Issues" to clean junk, repair the registry, and optimize performance automatically — or go tool by tool.</p>
+      <p>Click &ldquo;Fix All Issues&rdquo; to clean junk, repair the registry, and optimize performance automatically &mdash; or go tool by tool.</p>
     </div>
   </div>
 </section>
 
-<!-- ── CTA ───────────────────────────────────────── -->
+<!-- CTA -->
 <section class="cta-section">
   <div class="section-label center">Get Started</div>
   <h2>Ready to speed up your PC?</h2>
   <p>Free, portable, open-source. Works on Windows 10 and 11.</p>
   <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
-    <a class="btn-primary" href="dist/ProCleaner/run.exe" download="ProCleaner.exe">
-      ⬇ Download ProCleaner — Free
+    <a class="btn-primary" href="https://github.com/tonycarroll043-wq/ProCleaner/releases/latest/download/ProCleaner-v1.0.0-Windows.zip">
+      &#x2B07; Download ProCleaner &mdash; Free
     </a>
-    <a class="btn-secondary" href="https://github.com" target="_blank">
+    <a class="btn-secondary" href="https://github.com/tonycarroll043-wq/ProCleaner" target="_blank">
       View Source on GitHub
     </a>
   </div>
-  <p style="margin-top:20px;font-size:0.8rem;color:var(--text-muted)">No email required · No account · No tracking · MIT License</p>
+  <p style="margin-top:20px;font-size:0.8rem;color:var(--text-muted)">No email required &middot; No account &middot; No tracking &middot; MIT License</p>
 </section>
 
-<!-- ── FOOTER ─────────────────────────────────────── -->
+<!-- FOOTER -->
 <footer>
   <a class="footer-logo" href="#">
-    <div class="nav-logo-icon" style="width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,#388bfd,#bc8cff);display:flex;align-items:center;justify-content:center;font-size:14px">🧹</div>
+    <div class="nav-logo-icon" style="width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,#388bfd,#bc8cff);display:flex;align-items:center;justify-content:center;font-size:14px">&#x1F9F9;</div>
     ProCleaner
   </a>
   <div class="footer-links">
     <a href="#features">Features</a>
     <a href="#tools">Tools</a>
-    <a href="https://github.com" target="_blank">GitHub</a>
-    <a href="#">License</a>
+    <a href="https://github.com/tonycarroll043-wq/ProCleaner" target="_blank">GitHub</a>
+    <a href="https://github.com/tonycarroll043-wq/ProCleaner/blob/master/LICENSE" target="_blank">License</a>
   </div>
-  <div class="footer-copy">© 2025 ProCleaner · MIT License · Free &amp; Open Source</div>
+  <div class="footer-copy">&copy; 2025 ProCleaner &middot; MIT License &middot; Free &amp; Open Source</div>
 </footer>
 
 </body>
