@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tonycarroll043-wq.github.io/ProCleaner/sitemap.xml
